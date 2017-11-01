@@ -1,0 +1,119 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="d1e6b927-cb8c-457b-9231-f6783ce35013">
+    <Page.Content>
+        <Content Width="801" Height="642" Id="6c318dcb-e1c3-428f-9842-b2805fe31a0c">
+            <Content.Layers>
+                <Layer Id="f7311219-40ea-4df7-baa8-7d3d4dcf659d" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="48f1c39c-6468-43d4-8943-bc2f7604b996" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="801,600" Id="11edafb8-e3a0-4b25-bb70-51e76a39c97e" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="048b4a7e-4503-4138-9316-05be778e8c8d" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 18:23:52" Id="4f35c609-f6c1-403b-9484-222ecd73fd8c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="abf3cbab-990c-40ac-9912-c8c275b07482">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Rectangle Background="#FF717171" Id="ef286cbf-7228-4078-b34e-10f169ad686b" Panel.Bounds="0,0,800{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Button Text="TicketStrore" CornerRadius="10" FontFamily="Arial Black" Id="37380f13-5924-4579-a833-75ff91a7127a" Panel.Bounds="3,8,114{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Button Text="Изход" CornerRadius="10" FontFamily="Arial Black" Id="43fc994f-864b-4554-a44e-b7e2923144dd" Panel.Bounds="689,8,108{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Rectangle Background="#FFAAAAAA" Id="404729dc-63c6-4a62-a022-053240a85ee8" Panel.Bounds="-1,593,800{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Label RichText="Get Our newsletter " Foreground="#FF4281D0" FontSize="14" FontStyle="Bold" Opacity="0.6" Id="73602f8d-3b3c-4695-b2c4-4d0b97cef88a" Panel.Bounds="494,609,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <TextArea Text="Enter your email" Foreground="#FF4281D0" FontStyle="Bold" Opacity="0.4" Id="155b1c3e-f87a-4af1-a723-8ac035f860bd" Panel.Bounds="640,604,146{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Icon CatalogId="fa-facebook-official" Id="5d768171-4900-4c58-894e-d64601ae4b5e" Panel.Bounds="7,603,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Icon CatalogId="fa-twitter-square" Id="79c439fa-b2d1-4424-8554-74506055350e" Panel.Bounds="43,604,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Icon CatalogId="fa-instagram" Id="431f5097-74dd-4b67-b2c0-297340f826f2" Panel.Bounds="79,604,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <ContainerBox Id="3f0727a1-eea9-4391-b41b-63cc5d6bce9b" Panel.Bounds="136,53,526{5,2147483647},541{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="dae3af33-7c2c-4f10-8471-ff238866c253">
+                                            <Container.Children>
+                                                <Title RichText="&lt;Run FontSize=&quot;21&quot; &gt;Създай събитие&lt;/Run&gt;" Id="e07067b8-f9f2-44c5-9466-046fa99f891d" Panel.Bounds="185,8,215{5,2147483647},27{5,2147483647}" />
+                                                <TextBox FontSize="18" Id="90e805c1-52cf-4dcf-9a5b-e5332863c5b5" Panel.Bounds="185,52,299{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Събитие:&lt;/Run&gt;" FontSize="24" Id="bfca1c01-a100-4dfb-bd81-1020049b7fa8" Panel.Bounds="86,53,89{5,2147483647},27{5,2147483647}" />
+                                                <TextArea FontSize="18" Id="f5b1a18f-9304-4c7d-be9c-737faf743ad6" Panel.Bounds="185,92,299{5,2147483647},30{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Описание:&lt;/Run&gt;" FontSize="24" Id="99abf340-4b68-4e79-9a32-c4fadaa55e2f" Panel.Bounds="75,92,110{5,2147483647},24{5,2147483647}" />
+                                                <MapMock MockType="Street Map" Id="550ad43b-66c1-4a71-8812-80514c2582c1" Panel.Bounds="185,132,299{5,2147483647},79{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Местоположение:&lt;/Run&gt;" FontSize="24" Id="a26d289a-3b0c-4e83-912c-62459bf2456e" Panel.Bounds="13,132,166{5,2147483647},24{5,2147483647}" />
+                                                <OptionGroup FontSize="18" Id="1a3a2c4a-e85c-4306-9201-cdd045e2726e" Panel.Bounds="185,218,5*{5,2147483647},5*{5,2147483647}">
+                                                    <OptionGroup.Items>
+                                                        <Option Text="Публично" IsSelected="True" Id="7395e3e2-ebb7-4ef0-95e4-8edfac181c07" />
+                                                        <Option Text="Частно" Id="60abaf4d-350b-423f-baba-7c661d85d792" />
+                                                    </OptionGroup.Items>
+                                                </OptionGroup>
+                                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Категория:&lt;/Run&gt;" FontSize="24" Id="23c0e0b1-2e2a-430a-be66-093ad36942b1" Panel.Bounds="67,318,101{5,2147483647},24{5,2147483647}" />
+                                                <ListBox FontSize="16" Id="4a70d7dc-010f-40cc-a6ce-7435a77c9d36" Panel.Bounds="186,323,177{5,2147483647},59{5,2147483647}">
+                                                    <ListBox.Items>
+                                                        <Item Text="Концерт" Id="3ad652cc-5b9f-4e3a-90b3-c0d0a43e2101" />
+                                                        <Item Text="Парти" Id="6f190561-176e-4ebc-a587-07a02dade0ff" />
+                                                        <Item Text="Конференция" Id="b265f7e1-1a2c-451d-8be3-b0141d4ead5d" />
+                                                        <Item Text="Фестивал" Id="a1a6f5bc-2b22-42de-97af-6091262a4d49" />
+                                                    </ListBox.Items>
+                                                </ListBox>
+                                                <Button Text="Създай" FontSize="18" Id="f8a7cdd2-6575-40e3-8c8f-23599f3e5f23" Panel.Bounds="262,495,125{5,2147483647},27{5,2147483647}" />
+                                                <Icon CatalogId="Timer" Id="272e504e-5b4c-4975-b1fa-a82f850fbad7" Panel.Bounds="436,385,17{5,2147483647},17{5,2147483647}" />
+                                                <TextBox FontSize="18" Id="3edb9878-3aa0-423a-a849-c810f0556449" Panel.Bounds="185,388,242{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Дата:&lt;/Run&gt;" FontSize="24" Id="bae5ee1a-a03a-4e6a-98c9-950c329d2e6d" Panel.Bounds="113,385,48{5,2147483647},24{5,2147483647}" />
+                                                <Image SourcePath="assets/react-datepicker.jpg" Id="30c7562e-d142-4d7c-a726-1366b058ec31" Panel.Bounds="186,422,144{5,2147483647},64{5,2147483647}" />
+                                                <CheckBox Text="Наличност" FontFamily="Open Sans" Id="c197a45b-de57-4abd-9350-f47b2382b560" Panel.Bounds="392,331,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Icon CatalogId="linea-plus" Id="ab74869a-9349-43b9-a8cf-58ee9fb8b330" Panel.Bounds="318,265,25{5,2147483647},25{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Добави ценова категория:&lt;/Run&gt;" FontSize="24" Id="5fb34d17-e864-4ce6-bf01-0cef0ae4e7a4" Panel.Bounds="26,258,166{5,2147483647},52{5,2147483647}" />
+                                                <TextBox FontFamily="Arial Black" Id="e7b34310-d9ea-43fc-9427-8136a9607a9b" Panel.Bounds="189,264,120{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

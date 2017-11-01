@@ -1,0 +1,140 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="d1e6b927-cb8c-457b-9231-f6783ce35013">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="6c318dcb-e1c3-428f-9842-b2805fe31a0c">
+            <Content.Layers>
+                <Layer Id="f7311219-40ea-4df7-baa8-7d3d4dcf659d" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="48f1c39c-6468-43d4-8943-bc2f7604b996" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="11edafb8-e3a0-4b25-bb70-51e76a39c97e" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="048b4a7e-4503-4138-9316-05be778e8c8d" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 18:23:52" Id="4f35c609-f6c1-403b-9484-222ecd73fd8c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="abf3cbab-990c-40ac-9912-c8c275b07482">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Rectangle Background="#FF717171" Id="ef286cbf-7228-4078-b34e-10f169ad686b" Panel.Bounds="0,0,800{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Button Text="Вход" CornerRadius="10" FontFamily="Arial Black" Id="930812cf-81c8-4d19-a76d-776c1787fd64" Panel.Bounds="609,8,76{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Button Text="TicketStrore" CornerRadius="10" FontFamily="Arial Black" Id="37380f13-5924-4579-a833-75ff91a7127a" Panel.Bounds="3,8,114{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Button Text="Регистрация" CornerRadius="10" FontFamily="Arial Black" Id="43fc994f-864b-4554-a44e-b7e2923144dd" Panel.Bounds="689,8,108{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Title RichText="Вход" FontFamily="Arial Black" Id="ef9df1cf-7e23-4cfc-9571-e13abcfcd4ef" Panel.Bounds="352,61,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Line Thickness="1" Background="#00FFFFFF" Id="54266337-5523-4425-a5fd-b70039820597" Panel.Bounds="25,121,749{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point X="-344" Id="1ced785f-6388-4c29-988f-1cdf36809d0c" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="33806a4f-89bf-48b2-b69e-61f8400d10f2">
+                                            <Segment.EndPoint>
+                                                <Point X="405" Id="e76beb3a-fa86-425b-bc5a-3e9c53315fc2" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Rectangle Background="#FFAAAAAA" Id="404729dc-63c6-4a62-a022-053240a85ee8" Panel.Bounds="0,551,800{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Label RichText="Get Our newsletter " Foreground="#FF4281D0" FontSize="14" FontStyle="Bold" Opacity="0.6" Id="73602f8d-3b3c-4695-b2c4-4d0b97cef88a" Panel.Bounds="495,567,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <TextArea Text="Enter your email" Foreground="#FF4281D0" FontStyle="Bold" Opacity="0.4" Id="155b1c3e-f87a-4af1-a723-8ac035f860bd" Panel.Bounds="641,562,146{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Icon CatalogId="fa-facebook-official" Id="5d768171-4900-4c58-894e-d64601ae4b5e" Panel.Bounds="8,561,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Icon CatalogId="fa-twitter-square" Id="79c439fa-b2d1-4424-8554-74506055350e" Panel.Bounds="44,562,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Rectangle Color="#FF717171" Background="#FFE2E2E2" Id="85876ecd-0fa6-4c72-96fd-c55ad7a23922" Panel.Bounds="25,157,749{5,2147483647},298{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Button Text="Влез" CornerRadius="10" Foreground="#FF4281D0" FontSize="24" FontFamily="Open Sans" FontStyle="Bold" Id="645cd66d-5986-4508-aca3-eee5bb443c0d" Panel.Bounds="307,352,185{5,2147483647},65{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/LoggedIn.screen" Created="11/01/2017 10:52:20" Id="a6a7ea4b-3c31-4f13-8b56-f1570c53b1f5">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="645cd66d-5986-4508-aca3-eee5bb443c0d" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;24&quot; &gt;Парола:&lt;/Run&gt;" FontFamily="Open Sans" Opacity="0.6" Id="4b70198e-ef50-4473-9945-6cfeb14daef2" Panel.Bounds="285,256,95{5,2147483647},39{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="4b70198e-ef50-4473-9945-6cfeb14daef2" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <PasswordBox Password="2141241" FontSize="24" FontFamily="Open Sans" Id="1da0763a-4942-4449-9013-f3b1c3376044" Panel.Bounds="435,256,214{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="1da0763a-4942-4449-9013-f3b1c3376044" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Label RichText="Потребителско име:" FontSize="24" FontFamily="Open Sans" Opacity="0.6" Id="6153909d-f9e0-455c-804f-4e6a93165052" Panel.Bounds="142,195,238{5,2147483647},39{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="6153909d-f9e0-455c-804f-4e6a93165052" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <TextBox Text="име" FontSize="24" FontFamily="Open Sans" Id="69a97425-54bc-41ce-bb1d-418c0854b02c" Panel.Bounds="435,195,214{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="69a97425-54bc-41ce-bb1d-418c0854b02c" Target="f7311219-40ea-4df7-baa8-7d3d4dcf659d">
+                            <Add.Item>
+                                <Icon CatalogId="fa-instagram" Id="431f5097-74dd-4b67-b2c0-297340f826f2" Panel.Bounds="80,562,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

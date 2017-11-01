@@ -1,0 +1,159 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="752300d6-9383-4e05-bfe9-e33af1a27ffb">
+    <Page.Content>
+        <Content Width="799" Height="600" Id="c2379c3d-6cee-4c0f-9646-414a80190f01">
+            <Content.Layers>
+                <Layer Id="18129265-bec2-4d02-91f1-00c81de2a3e0" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="92a205ff-ed33-46da-a2f0-c7a6f1ec9ec9" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="799,600" Id="ad6e3511-98cc-403b-81e4-e1138f9056bb" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="556f74e6-784e-4547-b994-226fca347854" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/01/2017 10:28:54" Id="a28976ac-7d44-40e1-84b0-bc204a14d4d9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="7f75f6e9-0123-40e7-a973-8883bd09b666">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Rectangle Background="#FF717171" Id="0f40ab01-e3ad-4da5-b727-408f838c1475" Panel.Bounds="0,0,800{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Button Text="TicketStrore" CornerRadius="10" FontFamily="Arial Black" Id="9c4c894a-7550-4379-930d-9b84ba654ce1" Panel.Bounds="3,8,114{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Rectangle Background="#FFAAAAAA" Id="b773bd6f-07c1-4ee3-9f8f-c1188f9496dc" Panel.Bounds="0,551,800{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Label RichText="Get Our newsletter " Foreground="#FF4281D0" FontSize="14" FontStyle="Bold" Opacity="0.6" Id="60416b11-eda4-443d-95e5-caf9a28dd7a9" Panel.Bounds="495,567,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <TextArea Text="Enter your email" Foreground="#FF4281D0" FontStyle="Bold" Opacity="0.4" Id="e0206416-a2a6-43df-9ae8-90be40ef1103" Panel.Bounds="641,562,146{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon CatalogId="fa-facebook-official" Id="fb545764-beaa-4ece-a891-59882159341f" Panel.Bounds="8,561,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon CatalogId="fa-twitter-square" Id="3fc0be16-4aba-40ef-a76b-655d662d5429" Panel.Bounds="44,562,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon CatalogId="fa-instagram" Id="bff1efd8-8cb2-4003-a1b6-ec6d1d4ef512" Panel.Bounds="80,562,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="fa-user" Opacity="1" Id="925be8f3-7c0b-4082-9fef-e74505a47754" Panel.Bounds="697,8,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Button Text="Изход" CornerRadius="10" FontFamily="Arial Black" Id="f980e6e0-482f-4646-8444-22130d63734c" Panel.Bounds="734,10,63{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="d72fc052-3c8d-4897-829d-5771191640ce" Panel.Bounds="151,76,0*,0*">
+                                    <Group.Children>
+                                        <Grid FontSize="13" HeaderFontSize="13" Id="6c280add-9e0e-4a93-b0fb-34dd74ac03d2" Panel.Bounds="0,36,5*{5,2147483647},5*{5,2147483647}">
+                                            <Grid.HeaderRow>
+                                                <GridHeaderRow FontStyle="" Height="32" Id="a99d37df-1736-45d4-ba3d-d0098c9887a3" />
+                                            </Grid.HeaderRow>
+                                            <Grid.Columns>
+                                                <GridColumn ColumnId="3ba5b96f-fa59-4599-989b-dd0e35a815c2" Type="Text" Width="26" Id="cbd97343-9e63-47c9-afc9-27cac2291f73">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="3ba5b96f-fa59-4599-989b-dd0e35a815c2" Value="#" Opacity="1" Id="9e6026ba-171a-4a5b-8824-8aa9fb4db7fa" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                                <GridColumn ColumnId="ee997c8f-7889-429a-8f4d-dd2d72ba9fda" Type="Text" Width="91" Id="6021ebc1-3aae-4fa7-9a70-81f11652b4c5">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="ee997c8f-7889-429a-8f4d-dd2d72ba9fda" Value="Дата" Opacity="1" Id="4d785afd-db6d-4e3d-9113-e327526747ed" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                                <GridColumn ColumnId="1f9e9189-a2e3-43eb-92ea-f991438473ce" Type="Text" Width="59" Id="1d51b0f9-2b51-4877-ae7e-072f71948397">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="1f9e9189-a2e3-43eb-92ea-f991438473ce" Value="Време" Opacity="1" Id="70186375-15a1-4908-8a3f-3bf9b689c14f" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                                <GridColumn ColumnId="e576918d-bead-428a-9f4a-9d5d21b4c0a8" Type="Text" Width="202" Id="0517d0bb-83ed-4b59-98bb-32912ef42150">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="e576918d-bead-428a-9f4a-9d5d21b4c0a8" Value="Място" Opacity="1" Id="4fadaaaf-a80a-4348-a518-a41a3e39e832" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                                <GridColumn ColumnId="5a516f6b-e595-44ff-a3e1-0e1708fe2da3" Type="Text" Width="88" Id="c72d9d18-2b23-4c57-a3a5-902910b06613">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="5a516f6b-e595-44ff-a3e1-0e1708fe2da3" Value="Събитие" Opacity="1" Id="6debd93d-945a-4ff7-b2d6-1dcaa2df3a3b" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                                <GridColumn ColumnId="7e1425ad-6707-48c9-ba07-280969510eb3" Type="Text" Width="51" Id="3b2357b3-3ec4-4ba0-b38e-6934e892b63e">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="7e1425ad-6707-48c9-ba07-280969510eb3" Value="Цена" Opacity="1" Id="e2949406-8896-42a0-bb78-c054e4b64d75" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                            </Grid.Columns>
+                                            <Grid.Rows>
+                                                <GridRow Height="32" Id="72b12f66-62f1-4ad5-9592-66bb2ad13e76">
+                                                    <GridRow.Data>
+                                                        <GridCellData ColumnId="3ba5b96f-fa59-4599-989b-dd0e35a815c2" Value="1" Opacity="1" Id="7dbb3b52-9c8b-467b-a53e-065e34e07f8c" />
+                                                        <GridCellData ColumnId="e576918d-bead-428a-9f4a-9d5d21b4c0a8" Value="Арена Армеец, София" Opacity="1" Id="e2622621-2c99-49c3-99e2-9f384f57eb4e" />
+                                                        <GridCellData ColumnId="5a516f6b-e595-44ff-a3e1-0e1708fe2da3" Value="Nightwish" Opacity="1" Id="e8c88942-9764-47c7-937e-1214f9531ba8" />
+                                                        <GridCellData ColumnId="ee997c8f-7889-429a-8f4d-dd2d72ba9fda" Value="12 Окт 2017" Opacity="1" Id="e1df64dd-ae3f-44b4-b72b-62da888edd76" />
+                                                        <GridCellData ColumnId="7e1425ad-6707-48c9-ba07-280969510eb3" Value="50.00" Opacity="1" Id="b176e622-0550-4f63-a7dc-70cc9a3ce7d1" />
+                                                        <GridCellData ColumnId="1f9e9189-a2e3-43eb-92ea-f991438473ce" Value="20:00ч." Opacity="1" Id="6d63b466-8c84-46a9-9fb7-2eb88095015b" />
+                                                    </GridRow.Data>
+                                                </GridRow>
+                                                <GridRow Height="32" Id="2f4cc928-e9f2-482f-ad57-39e94d8705b0">
+                                                    <GridRow.Data>
+                                                        <GridCellData ColumnId="3ba5b96f-fa59-4599-989b-dd0e35a815c2" Value="2" Opacity="1" Id="23bdf0d1-cab9-4c86-9098-3a3e4bf0b8c2" />
+                                                        <GridCellData ColumnId="e576918d-bead-428a-9f4a-9d5d21b4c0a8" Value="Стадион Васил Левски, София" Opacity="1" Id="6bf07e21-a2da-412d-84b6-02707e54ed2c" />
+                                                        <GridCellData ColumnId="5a516f6b-e595-44ff-a3e1-0e1708fe2da3" Value="Metallica" Opacity="1" Id="50a3de22-3238-46c8-93c7-2e13e47c3102" />
+                                                        <GridCellData ColumnId="ee997c8f-7889-429a-8f4d-dd2d72ba9fda" Value="18 Сеп 2017" Opacity="1" Id="6903e352-d2b5-4c02-b67a-22ae0f00574d" />
+                                                        <GridCellData ColumnId="7e1425ad-6707-48c9-ba07-280969510eb3" Value="40.00" Opacity="1" Id="8ae305ee-97d9-4dd1-9097-be5ec3e5fb25" />
+                                                        <GridCellData ColumnId="1f9e9189-a2e3-43eb-92ea-f991438473ce" Value="19:30ч." Opacity="1" Id="9e537996-ff13-4b47-9a69-b2c20ed80c37" />
+                                                    </GridRow.Data>
+                                                </GridRow>
+                                                <GridRow Height="32" Id="0e441ce1-8938-4f9c-96c6-8feef4116d8a">
+                                                    <GridRow.Data>
+                                                        <GridCellData ColumnId="3ba5b96f-fa59-4599-989b-dd0e35a815c2" Value="3" Opacity="1" Id="4724db3a-32e0-436f-b2a1-da778b2f0d8b" />
+                                                        <GridCellData ColumnId="e576918d-bead-428a-9f4a-9d5d21b4c0a8" Value="Концертна зала, Пловдив" Opacity="1" Id="297ee8e0-682e-4cf5-b5c6-d1b0e12296ae" />
+                                                        <GridCellData ColumnId="5a516f6b-e595-44ff-a3e1-0e1708fe2da3" Value="Evanescence" Opacity="1" Id="baea0f3d-bc86-4368-8b18-8698d48e71fa" />
+                                                        <GridCellData ColumnId="ee997c8f-7889-429a-8f4d-dd2d72ba9fda" Value="19 Мар 2017" Opacity="1" Id="7cec6bc1-c07d-4601-95fc-f6803ccfc154" />
+                                                        <GridCellData ColumnId="7e1425ad-6707-48c9-ba07-280969510eb3" Value="60.00" Opacity="1" Id="aa291b6e-4896-4030-90f2-50398d230da8" />
+                                                        <GridCellData ColumnId="1f9e9189-a2e3-43eb-92ea-f991438473ce" Value="18:00ч." Opacity="1" Id="0e25d44e-e2b6-473f-b9b5-f75d59317f55" />
+                                                    </GridRow.Data>
+                                                </GridRow>
+                                            </Grid.Rows>
+                                        </Grid>
+                                        <Title RichText="Моите минали събития" FontSize="21" FontFamily="Open Sans" Id="350dfe21-88ff-4155-b21a-800f1c71f6d6" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

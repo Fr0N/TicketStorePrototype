@@ -1,0 +1,316 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="752300d6-9383-4e05-bfe9-e33af1a27ffb">
+    <Page.Content>
+        <Content Width="799" Height="600" Id="c2379c3d-6cee-4c0f-9646-414a80190f01">
+            <Content.Layers>
+                <Layer Id="18129265-bec2-4d02-91f1-00c81de2a3e0" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="92a205ff-ed33-46da-a2f0-c7a6f1ec9ec9" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="799,600" Id="ad6e3511-98cc-403b-81e4-e1138f9056bb" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="556f74e6-784e-4547-b994-226fca347854" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/01/2017 10:28:54" Id="a28976ac-7d44-40e1-84b0-bc204a14d4d9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="7f75f6e9-0123-40e7-a973-8883bd09b666">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Tabs Id="37a6ce5c-c653-40ec-9cc7-bc63fd0328aa" Panel.Bounds="422,96,343{5,2147483647},416{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="стъпка 1" Tooltip="jjj" Id="342d7279-5866-4f4a-bf8f-0f73e755d32c">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="16032be1-9f83-4d1f-bf36-241563292d22">
+                                                    <Container.Children>
+                                                        <i:ContentList Direction="Vertical" Thickness="0" Id="5b656c1a-04fe-42df-9ca7-18278b2b06ec" Panel.Bounds="6,52,301{5,2147483647},316{5,2147483647}">
+                                                            <i:ContentList.Template>
+                                                                <Template Id="d6d3fba0-7314-4793-acd7-b8a4ff74e871">
+                                                                    <Template.Content>
+                                                                        <ListItemContent Color="#FFFFFFFF" Thickness="0" Padding="0" Id="7c0ca8af-2f1d-449c-819b-2dcd1a90c451" Panel.Bounds="0,0,0*,96" Panel.Layout="Stretch">
+                                                                            <ListItemContent.Content>
+                                                                                <Container ClipToContainer="True" Id="8877a52a-c845-4730-bcb2-a0505522ee21">
+                                                                                    <Container.Children>
+                                                                                        <i:Label RichText="Indigo Studio" Foreground="#FF000000" FontSize="17" FontStyle="Bold" Id="507e876d-480d-48af-8349-9e266596be67" Panel.Bounds="73,7,0*,0*" />
+                                                                                        <Ellipse Thickness="0" Background="#FF0070FF" Id="d379b44e-9bcf-4b5c-bc08-9c190d4b6f06" Panel.Bounds="54,13,12,12" />
+                                                                                        <Icon CatalogId="iOS 7 Contacts" Id="3b236195-c743-440a-adb0-9da9c71dd32d" Panel.Bounds="12,11,30,30" />
+                                                                                        <Icon Color="#FFCCCCCC" CatalogId="Greater Than" Id="f67ec21c-9731-415e-89a2-3ddc4e34f0f3" Panel.Bounds="297,15,13,13" />
+                                                                                        <i:Label RichText="Tuesday" Align="Right" Foreground="#FF8E8E8E" Id="11227324-f6f1-4db1-b94f-ce4988ed4106" Panel.Bounds="209,11,80,18*" />
+                                                                                        <i:Label RichText="Subject line of the message" Foreground="#FF000000" Id="c7c7eab4-c32e-4c57-bcc3-a42f65c8912a" Panel.Bounds="53,30,0*,0*" />
+                                                                                        <i:Label RichText="First line of the message summ..." Foreground="#FF8E8E8E" Id="e0fba124-2366-4059-969d-256e213d657c" Panel.Bounds="53,51,0*,0*" />
+                                                                                        <i:Label RichText="Second line of the message su..." Foreground="#FF8E8E8E" Id="e6a68a73-324c-43fe-8dd3-1e43bdcd056b" Panel.Bounds="53,69,0*,0*" />
+                                                                                        <Line Thickness="1" Color="#FFE3E3E5" Id="5b8dfc35-dd4a-406e-a697-86178b90d837" Panel.Bounds="53,0,267,3">
+                                                                                            <Line.StartPoint>
+                                                                                                <Point X="42" Id="4aa6b75f-e009-405b-a4a2-b54ebf72455b" />
+                                                                                            </Line.StartPoint>
+                                                                                            <Line.Segments>
+                                                                                                <Segment Id="9e5470a9-1a6c-4396-8c13-2185e6fe494e">
+                                                                                                    <Segment.EndPoint>
+                                                                                                        <Point X="310" Id="8ef7e298-e38d-46d2-9bf5-834f74de0895" />
+                                                                                                    </Segment.EndPoint>
+                                                                                                </Segment>
+                                                                                            </Line.Segments>
+                                                                                        </Line>
+                                                                                    </Container.Children>
+                                                                                </Container>
+                                                                            </ListItemContent.Content>
+                                                                        </ListItemContent>
+                                                                    </Template.Content>
+                                                                </Template>
+                                                            </i:ContentList.Template>
+                                                            <i:ContentList.Items>
+                                                                <ListItem Id="05f4f8fa-fd29-4ae1-a1b0-a462e47bd9c4">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="d397bd3b-9f5a-475b-8e88-6ffbcf0d0380">
+                                                                            <SharedPart.Customizations>
+                                                                                <Add Property="Panel.Children" Target="8877a52a-c845-4730-bcb2-a0505522ee21">
+                                                                                    <Add.Item>
+                                                                                        <TextBox Text="брой..." FontFamily="Open Sans" Id="cb175586-c36e-4f7a-94cc-ede479981537" Panel.Bounds="169,49,120{5,2147483647},5*{5,2147483647}" />
+                                                                                    </Add.Item>
+                                                                                </Add>
+                                                                                <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;14&quot; &gt;Ценова категория&lt;/Run&gt;" Target="507e876d-480d-48af-8349-9e266596be67" />
+                                                                                <Move To="70,14" Target="507e876d-480d-48af-8349-9e266596be67" />
+                                                                                <Resize To="8,8" Target="d379b44e-9bcf-4b5c-bc08-9c190d4b6f06" />
+                                                                                <Move To="49,20" Target="d379b44e-9bcf-4b5c-bc08-9c190d4b6f06" />
+                                                                                <Set Property="Icon.CatalogId" Value="fa-usd" Target="3b236195-c743-440a-adb0-9da9c71dd32d" />
+                                                                                <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;18&quot; &gt;180 BGN&lt;/Run&gt;" Target="11227324-f6f1-4db1-b94f-ce4988ed4106" />
+                                                                                <Move To="212,11" Target="11227324-f6f1-4db1-b94f-ce4988ed4106" />
+                                                                                <Set Property="Label.RichText" Value="" Target="e6a68a73-324c-43fe-8dd3-1e43bdcd056b" />
+                                                                                <Resize To="0,88" Target="7c0ca8af-2f1d-449c-819b-2dcd1a90c451" />
+                                                                                <Remove Target="c7c7eab4-c32e-4c57-bcc3-a42f65c8912a" />
+                                                                                <Remove Target="e0fba124-2366-4059-969d-256e213d657c" />
+                                                                                <Remove Target="5b8dfc35-dd4a-406e-a697-86178b90d837" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                                <ListItem Id="f638faad-d22e-433f-aba6-d9701561082d">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="f0001a0e-1f52-44ad-a7b3-84446e610b82">
+                                                                            <SharedPart.Customizations>
+                                                                                <Add Property="Panel.Children" Target="8877a52a-c845-4730-bcb2-a0505522ee21">
+                                                                                    <Add.Item>
+                                                                                        <TextBox Text="брой..." FontFamily="Open Sans" Id="0f832094-c174-4e7f-a6c8-76772916aecc" Panel.Bounds="169,49,120{5,2147483647},5*{5,2147483647}" />
+                                                                                    </Add.Item>
+                                                                                </Add>
+                                                                                <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;14&quot; &gt;Ценова категория&lt;/Run&gt;" Target="507e876d-480d-48af-8349-9e266596be67" />
+                                                                                <Move To="70,14" Target="507e876d-480d-48af-8349-9e266596be67" />
+                                                                                <Resize To="8,8" Target="d379b44e-9bcf-4b5c-bc08-9c190d4b6f06" />
+                                                                                <Move To="49,20" Target="d379b44e-9bcf-4b5c-bc08-9c190d4b6f06" />
+                                                                                <Set Property="Icon.CatalogId" Value="fa-usd" Target="3b236195-c743-440a-adb0-9da9c71dd32d" />
+                                                                                <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;18&quot; &gt;120 BGN&lt;/Run&gt;" Target="11227324-f6f1-4db1-b94f-ce4988ed4106" />
+                                                                                <Move To="212,11" Target="11227324-f6f1-4db1-b94f-ce4988ed4106" />
+                                                                                <Set Property="Label.RichText" Value="" Target="e6a68a73-324c-43fe-8dd3-1e43bdcd056b" />
+                                                                                <Resize To="0,88" Target="7c0ca8af-2f1d-449c-819b-2dcd1a90c451" />
+                                                                                <Remove Target="c7c7eab4-c32e-4c57-bcc3-a42f65c8912a" />
+                                                                                <Remove Target="e0fba124-2366-4059-969d-256e213d657c" />
+                                                                                <Remove Target="5b8dfc35-dd4a-406e-a697-86178b90d837" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                                <ListItem Id="8882982d-0cfb-4069-9579-649c6bcb654c">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="326773b2-859a-4937-9c17-76d921956b9e">
+                                                                            <SharedPart.Customizations>
+                                                                                <Add Property="Panel.Children" Target="8877a52a-c845-4730-bcb2-a0505522ee21">
+                                                                                    <Add.Item>
+                                                                                        <TextBox Text="брой..." FontFamily="Open Sans" Id="52a6076c-0fc0-454f-8d6e-4a4a04b8bbed" Panel.Bounds="169,49,120{5,2147483647},5*{5,2147483647}" />
+                                                                                    </Add.Item>
+                                                                                </Add>
+                                                                                <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;14&quot; &gt;Ценова категория&lt;/Run&gt;" Target="507e876d-480d-48af-8349-9e266596be67" />
+                                                                                <Move To="70,14" Target="507e876d-480d-48af-8349-9e266596be67" />
+                                                                                <Resize To="8,8" Target="d379b44e-9bcf-4b5c-bc08-9c190d4b6f06" />
+                                                                                <Move To="49,20" Target="d379b44e-9bcf-4b5c-bc08-9c190d4b6f06" />
+                                                                                <Set Property="Icon.CatalogId" Value="fa-usd" Target="3b236195-c743-440a-adb0-9da9c71dd32d" />
+                                                                                <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;18&quot; &gt;95 BGN&lt;/Run&gt;" Target="11227324-f6f1-4db1-b94f-ce4988ed4106" />
+                                                                                <Move To="212,11" Target="11227324-f6f1-4db1-b94f-ce4988ed4106" />
+                                                                                <Set Property="Label.RichText" Value="" Target="e6a68a73-324c-43fe-8dd3-1e43bdcd056b" />
+                                                                                <Resize To="0,88" Target="7c0ca8af-2f1d-449c-819b-2dcd1a90c451" />
+                                                                                <Remove Target="c7c7eab4-c32e-4c57-bcc3-a42f65c8912a" />
+                                                                                <Remove Target="e0fba124-2366-4059-969d-256e213d657c" />
+                                                                                <Remove Target="5b8dfc35-dd4a-406e-a697-86178b90d837" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                            </i:ContentList.Items>
+                                                        </i:ContentList>
+                                                        <Button Text="Напред" FontSize="16" FontFamily="Open Sans" Id="abc8ac4c-8872-479f-a82a-13b08416b537" Panel.Bounds="76,320,191{5,2147483647},51{5,2147483647}" />
+                                                        <Title RichText="Избери билети" FontSize="18" FontFamily="Open Sans" Id="6277e5e7-69c1-4505-92b3-6dca51c08972" Panel.Bounds="18,18,5*{5,2147483647},5*{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="стъпка 2" Id="e78640f3-5440-4a93-b55b-5ed5f1c1cf1f">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="0548bee7-f1c2-4423-9ee8-9b1ddcbafc89">
+                                                    <Container.Children>
+                                                        <Title RichText="Метод за доставка на билетите:" FontSize="18" FontFamily="Open Sans" Id="596594e7-c6e3-495c-96c6-4688c3d4793b" Panel.Bounds="18,18,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Rectangle Id="91ad014d-911f-452d-9399-06a41ebaf22b" Panel.Bounds="11,63,319{5,2147483647},188{5,2147483647}" />
+                                                        <OptionGroup Id="80d9c3e1-6880-44e1-ad41-8814cf369664" Panel.Bounds="56,69,5*{5,2147483647},5*{5,2147483647}">
+                                                            <OptionGroup.Items>
+                                                                <Option Text="Доставка с куриер" Id="022748fe-bb17-4422-9be0-59a3c622efb8" />
+                                                            </OptionGroup.Items>
+                                                        </OptionGroup>
+                                                        <OptionGroup Id="de2de8be-ee63-4dd1-8a62-f8f3721f0ece" Panel.Bounds="56,232,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <OptionGroup Id="94a3108f-ccd1-4867-be70-bf1268aff46b" Panel.Bounds="56,145,5*{5,2147483647},5*{5,2147483647}">
+                                                            <OptionGroup.Items>
+                                                                <Option Text="Pickup Office" Id="2017abca-f843-41af-ae7d-e622b701e8c1" />
+                                                            </OptionGroup.Items>
+                                                        </OptionGroup>
+                                                        <TextBox Text="адрес за доставка..." FontFamily="Open Sans" Id="2a4a70b2-0989-4d22-9fdf-ce2fd3754cc0" Panel.Bounds="78,106,194{5,2147483647},5*{5,2147483647}" />
+                                                        <ComboBox IsOpen="True" Hint="Изберете офис" Id="cef8b0da-9266-4817-b202-fc1666bff8ff" Panel.Bounds="78,184,194{5,2147483647},25{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="офис 1" Id="511be2c0-a48f-42f8-b184-8f8423e20e25" />
+                                                                <Item Text="офис 2" Id="28396cbe-4abe-4472-97e0-4fa8ee776eba" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                        <Button Text="Напред" FontSize="16" FontFamily="Open Sans" Id="93dbbbc9-4d96-4c7d-a852-eca019ecee44" Panel.Bounds="76,312,191{5,2147483647},51{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="стъпка 3" IsSelected="True" Id="2c5f3423-18e9-464a-a7e0-dac86e2ced81">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="479d71f9-16e9-4f60-8dce-7e88690c8cfb">
+                                                    <Container.Children>
+                                                        <Rectangle Id="fa2b75b8-e6f5-430e-9192-e045f4933ba7" Panel.Bounds="14,57,310{5,2147483647},188{5,2147483647}" />
+                                                        <Title RichText="Избери метод на плащане" FontSize="18" FontFamily="Open Sans" Id="02a91879-0db0-4b87-bb5e-697c189fca3e" Panel.Bounds="18,18,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <OptionGroup Id="99b846c8-9e20-45f0-ae4f-93aa0f121ddd" Panel.Bounds="56,69,5*{5,2147483647},5*{5,2147483647}">
+                                                            <OptionGroup.Items>
+                                                                <Option Text="Visa, MasterCard и др." Id="2aeecb9a-8d21-4c0f-9d9f-9895d1aa1c88" />
+                                                            </OptionGroup.Items>
+                                                        </OptionGroup>
+                                                        <OptionGroup Id="39c09539-6927-46d2-bd53-f544f1463f12" Panel.Bounds="56,232,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <OptionGroup Id="8319edd4-def3-4a10-98ed-01942478e9cd" Panel.Bounds="56,106,5*{5,2147483647},5*{5,2147483647}">
+                                                            <OptionGroup.Items>
+                                                                <Option Text="В брой (Изипей)" Id="2d872aea-3eba-476a-92ab-2f3821a6e3bc" />
+                                                            </OptionGroup.Items>
+                                                        </OptionGroup>
+                                                        <OptionGroup Id="a963a044-1a51-4650-a320-64a2a9e3c0b6" Panel.Bounds="56,145,5*{5,2147483647},5*{5,2147483647}">
+                                                            <OptionGroup.Items>
+                                                                <Option Text="С банков превод" Id="d2925e22-053e-4405-b7b0-b65ccbf8f82f" />
+                                                            </OptionGroup.Items>
+                                                        </OptionGroup>
+                                                        <OptionGroup Id="ffe6a5ad-7297-4acd-8efd-4f797574eb7e" Panel.Bounds="56,186,5*{5,2147483647},5*{5,2147483647}">
+                                                            <OptionGroup.Items>
+                                                                <Option Text="ePay.bg" Id="931c6b53-9a8f-4ba2-9c5a-e4b66b28b478" />
+                                                            </OptionGroup.Items>
+                                                        </OptionGroup>
+                                                        <CheckBox FontFamily="Open Sans" Id="297171b4-d49c-4d72-b031-83e6ac7e50b8" Panel.Bounds="23,263,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Прочетох и приемам oбщите условия за ползване на сайта." FontFamily="Open Sans" Id="659e4ce3-e3ad-4249-b981-3677b9894c22" Panel.Bounds="56,263,243{5,2147483647},18*{5,2147483647}" />
+                                                        <Button Text="Поръчай" FontSize="16" FontFamily="Open Sans" Id="94dd4353-2343-4064-b15c-bb71578b5708" Panel.Bounds="76,318,191{5,2147483647},51{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Rectangle Background="#FF717171" Id="0f40ab01-e3ad-4da5-b727-408f838c1475" Panel.Bounds="0,0,800{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Button Text="TicketStrore" CornerRadius="10" FontFamily="Arial Black" Id="9c4c894a-7550-4379-930d-9b84ba654ce1" Panel.Bounds="3,8,114{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Rectangle Background="#FFAAAAAA" Id="b773bd6f-07c1-4ee3-9f8f-c1188f9496dc" Panel.Bounds="0,551,800{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Label RichText="Get Our newsletter " Foreground="#FF4281D0" FontSize="14" FontStyle="Bold" Opacity="0.6" Id="60416b11-eda4-443d-95e5-caf9a28dd7a9" Panel.Bounds="495,567,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <TextArea Text="Enter your email" Foreground="#FF4281D0" FontStyle="Bold" Opacity="0.4" Id="e0206416-a2a6-43df-9ae8-90be40ef1103" Panel.Bounds="641,562,146{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon CatalogId="fa-facebook-official" Id="fb545764-beaa-4ece-a891-59882159341f" Panel.Bounds="8,561,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon CatalogId="fa-twitter-square" Id="3fc0be16-4aba-40ef-a76b-655d662d5429" Panel.Bounds="44,562,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon CatalogId="fa-instagram" Id="bff1efd8-8cb2-4003-a1b6-ec6d1d4ef512" Panel.Bounds="80,562,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Image Id="6a03856c-fc3a-4cf7-ad48-a73804fed7e6" Panel.Bounds="71,332,58{5,2147483647},46{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Image Id="d377ba68-e069-432c-954c-a8818aff668b" Panel.Bounds="147,332,58{5,2147483647},46{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Image Id="85bda5d9-a539-4b67-b364-1ccdc9f534ae" Panel.Bounds="224,332,58{5,2147483647},46{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Image Id="4b69ec49-9408-4f8e-ac48-721b28e0f75e" Panel.Bounds="300,332,58{5,2147483647},46{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <MapMock MockType="Street Map" Id="1ce5b144-3d94-41c2-88e8-cf1fc6a70568" Panel.Bounds="71,407,287{5,2147483647},105{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon CatalogId="linea-geolocalize-01" Id="aec97c38-b7d8-4824-80ea-72f4b34a9599" Panel.Bounds="134,410,31{5,2147483647},31{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="fa-user" Opacity="1" Id="925be8f3-7c0b-4082-9fef-e74505a47754" Panel.Bounds="697,8,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Button Text="Изход" CornerRadius="10" FontFamily="Arial Black" Id="f980e6e0-482f-4646-8444-22130d63734c" Panel.Bounds="734,10,63{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Title RichText="Aerosmit" Id="6aceb0e2-60f6-4437-aacb-63c54a286b32" Panel.Bounds="71,67,271{5,2147483647},42{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Image SourcePath="assets/Aero.png" Id="32c57013-d408-4b8c-8288-470ad38e2850" Panel.Bounds="71,129,287{5,2147483647},183{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

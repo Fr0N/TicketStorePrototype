@@ -1,0 +1,182 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="752300d6-9383-4e05-bfe9-e33af1a27ffb">
+    <Page.Content>
+        <Content Width="799" Height="600" Id="c2379c3d-6cee-4c0f-9646-414a80190f01">
+            <Content.Layers>
+                <Layer Id="18129265-bec2-4d02-91f1-00c81de2a3e0" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="92a205ff-ed33-46da-a2f0-c7a6f1ec9ec9" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="799,600" Id="ad6e3511-98cc-403b-81e4-e1138f9056bb" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="556f74e6-784e-4547-b994-226fca347854" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/01/2017 10:28:54" Id="a28976ac-7d44-40e1-84b0-bc204a14d4d9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="7f75f6e9-0123-40e7-a973-8883bd09b666">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Rectangle Background="#FF717171" Id="0f40ab01-e3ad-4da5-b727-408f838c1475" Panel.Bounds="0,0,800{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Button Text="TicketStrore" CornerRadius="10" FontFamily="Arial Black" Id="9c4c894a-7550-4379-930d-9b84ba654ce1" Panel.Bounds="3,8,114{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Rectangle Background="#FFAAAAAA" Id="b773bd6f-07c1-4ee3-9f8f-c1188f9496dc" Panel.Bounds="0,551,800{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Label RichText="Get Our newsletter " Foreground="#FF4281D0" FontSize="14" FontStyle="Bold" Opacity="0.6" Id="60416b11-eda4-443d-95e5-caf9a28dd7a9" Panel.Bounds="495,567,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <TextArea Text="Enter your email" Foreground="#FF4281D0" FontStyle="Bold" Opacity="0.4" Id="e0206416-a2a6-43df-9ae8-90be40ef1103" Panel.Bounds="641,562,146{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon CatalogId="fa-facebook-official" Id="fb545764-beaa-4ece-a891-59882159341f" Panel.Bounds="8,561,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon CatalogId="fa-twitter-square" Id="3fc0be16-4aba-40ef-a76b-655d662d5429" Panel.Bounds="44,562,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon CatalogId="fa-instagram" Id="bff1efd8-8cb2-4003-a1b6-ec6d1d4ef512" Panel.Bounds="80,562,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="fa-user" Opacity="1" Id="925be8f3-7c0b-4082-9fef-e74505a47754" Panel.Bounds="697,8,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Button Text="Изход" CornerRadius="10" FontFamily="Arial Black" Id="f980e6e0-482f-4646-8444-22130d63734c" Panel.Bounds="734,10,63{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18129265-bec2-4d02-91f1-00c81de2a3e0">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="6f19d733-e773-499c-aa37-a45b3a94c9a1" Panel.Bounds="350,495,0*,0*">
+                                    <Group.Children>
+                                        <Title RichText="Моите билети" FontSize="21" FontFamily="Open Sans" Id="55a71816-c330-4c5a-b084-721ecd7fd9e2" Panel.Bounds="-139,-412,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Image SourcePath="assets/Aero.png" Id="e79c34ba-861e-4ecf-a380-4ecf89ef8718" Panel.Bounds="-135,-360,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Title RichText="Aerosmith" FontSize="16" FontFamily="Open Sans" Id="6341e4ac-3f80-40f9-9da8-87a98697b657" Panel.Bounds="39,-357,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Арена Армеец, София" FontFamily="Open Sans" Id="b3389759-2c56-49d8-b106-ace76431d9d2" Panel.Bounds="39,-333,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Вт, Юни 30 2018 20:00ч." FontFamily="Open Sans" Id="c1783f5b-4612-4b95-abf5-53f04f79bbd2" Panel.Bounds="39,-318,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Button Text="Принтирай" CornerRadius="5" FontFamily="Open Sans" Id="f782c076-4a05-4b07-a51c-736d40232411" Panel.Bounds="101,-289,87{5,2147483647},22{5,2147483647}" />
+                                        <Line Thickness="1" Background="#00FFFFFF" Id="03b7af81-167c-43f3-a68c-743b4f27ab6a" Panel.Bounds="-139,-255,331{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="c1e99b7d-c44e-49c6-9fb0-3f1c389b5972" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="4b5cf2f6-336a-4a16-ad35-dd8771f769d8">
+                                                    <Segment.EndPoint>
+                                                        <Point X="331" Id="b00b977e-e584-4edc-9845-cb209b3f0a46" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Line Thickness="1" Background="#00FFFFFF" Id="35d6152c-33c0-4157-943a-48338d7f1816" Panel.Bounds="-139,-368,331{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="9a7380b7-3f72-4a76-b711-12d5dde26ba4" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="07c2ecf1-a53b-4768-ab88-b257412e801e">
+                                                    <Segment.EndPoint>
+                                                        <Point X="331" Id="d97c3be0-934d-4d3e-8972-ff923c577d78" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Image SourcePath="assets/Mana.png" Id="5e7cdc4d-8311-4c48-a3c8-c637a28fa8f4" Panel.Bounds="-135,-248,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Title RichText="Mana" FontSize="16" FontFamily="Open Sans" Id="b02046e7-46bb-4d26-a92b-84e95f52ddd5" Panel.Bounds="39,-245,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Пон, Авг 28 2018 19:30ч." FontFamily="Open Sans" Id="561cbd56-4d2d-48d0-90eb-891822858e81" Panel.Bounds="39,-206,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Button Text="Принтирай" CornerRadius="5" FontFamily="Open Sans" Id="3c1ff97d-00f9-4943-8f7f-db99e6e22613" Panel.Bounds="97,-180,87{5,2147483647},22{5,2147483647}" />
+                                        <Line Thickness="1" Background="#00FFFFFF" Id="0d48aa85-133f-486a-a38d-9e7640982490" Panel.Bounds="-135,-142,331{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="e65d72bb-d026-4d0e-8702-4f390cb7ed5f" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="eec77f7a-97de-43de-bf9c-b83aedf58de6">
+                                                    <Segment.EndPoint>
+                                                        <Point X="331" Id="eceef1ba-4fe3-41e2-bce7-bd29d9834905" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Line Thickness="1" Background="#00FFFFFF" Id="0f9ad32d-d7a1-4f45-a7cc-74d87f4eb309" Panel.Bounds="-135,-255,331{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="c271ee39-8665-4ef4-8c71-566d0daa4aff" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="428cb1fb-4a0e-4da8-b34c-b4b9b09c28b0">
+                                                    <Segment.EndPoint>
+                                                        <Point X="331" Id="9850600e-a5cb-44b0-a92f-0c57007005d5" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Image SourcePath="assets/Aero.png" Id="eac9a7bc-8459-45a6-a4bf-2f183dee6d41" Panel.Bounds="-135,-133,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Title RichText="Aerosmith" FontSize="16" FontFamily="Open Sans" Id="7cb0b6c4-b9ad-4bb7-a9a1-89c0ba1c3508" Panel.Bounds="39,-130,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Концертна зала, Пловдив" FontFamily="Open Sans" Id="0d4e88cc-2566-4ee7-9805-34467ab98473" Panel.Bounds="39,-106,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Вт, Юни 15 2018 20:00ч." FontFamily="Open Sans" Id="0818877e-9846-4ffd-8e31-13cc2d9353d4" Panel.Bounds="39,-91,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Button Text="Принтирай" CornerRadius="5" FontFamily="Open Sans" Id="1ed8a371-8a4a-40b8-8ff3-f5944c566d1a" Panel.Bounds="93,-62,87{5,2147483647},22{5,2147483647}" />
+                                        <Line Thickness="1" Background="#00FFFFFF" Id="49f59727-cf57-405c-9da0-b72cff3a1b28" Panel.Bounds="-139,-29,331{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="ffabd9cc-21cb-4407-bbc0-fd1b40d2f86c" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="05d68af4-3c3a-4c25-9017-d8a6fdfd2bd8">
+                                                    <Segment.EndPoint>
+                                                        <Point X="331" Id="ca264ad7-41a7-412a-b3f8-b06461f51597" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Line Thickness="1" Background="#00FFFFFF" Id="08743f6e-88e6-46af-a4fb-65b3530b2429" Panel.Bounds="-139,-142,331{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="3b53314b-f601-491f-a119-243aa33ea56e" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="57be6b8d-9f87-471a-a4c3-3bb0ad8e1907">
+                                                    <Segment.EndPoint>
+                                                        <Point X="331" Id="e61b0e48-2603-43b0-995f-0ed1d6a2aa52" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Label RichText="Арена Армеец, София" FontFamily="Open Sans" Id="8ec4f7d9-0ad9-465e-a6a2-226be58362ad" Panel.Bounds="39,-225,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="5" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="4ec2ea53-414a-466d-9f71-1c6ac15a3702" Panel.Bounds="64,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="4" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="7c12f2f7-45db-4545-868e-8eae5e8a0d4e" Panel.Bounds="47,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="3" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="a2edbada-3739-40b5-ac86-461bb1a6d225" Panel.Bounds="30,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="2" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="8c6835a2-0afb-4a9f-8980-ea369a5816ab" Panel.Bounds="13,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="1" FontFamily="Open Sans" Id="2abcd9a6-ff8e-4d2f-a540-b18b495c4c40" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

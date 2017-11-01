@@ -1,0 +1,109 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="66e4861b-bc8b-4418-ad97-10ed5d0186fb">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="9ac2e82f-0adf-4777-89af-67e462fe240f">
+            <Content.Layers>
+                <Layer Id="9b85bcd8-3656-4a40-8b87-12ba63ef1cca" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="d3a86fec-be6a-453f-9c2d-1877e247d737" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="796cd90a-9fac-471e-bcdd-53b9c4702f84" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9a78073b-5931-4384-9768-ce8fe02b0aa9" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/30/2017 18:30:03" Id="665de68d-5fe3-4dec-b8f2-34927db196b3">
+            <Scene.KeyFrames>
+                <KeyFrame Id="4778b85a-2aae-4990-b3df-7bc0e1a16b18">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Before="c9354bc9-f00d-4e20-969d-75916a3930a1" Target="9b85bcd8-3656-4a40-8b87-12ba63ef1cca">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="934f32cb-43d8-4448-8197-0492172e45a8" Panel.Bounds="151,76,0*,0*">
+                                    <Group.Children>
+                                        <Grid FontSize="13" HeaderFontSize="13" Id="0146dee6-b759-427f-acb8-47329aa1c8e0" Panel.Bounds="0,36,5*{5,2147483647},5*{5,2147483647}">
+                                            <Grid.HeaderRow>
+                                                <GridHeaderRow FontStyle="" Height="32" Id="ba2427bf-4561-44e7-80b4-9391902dfeb7" />
+                                            </Grid.HeaderRow>
+                                            <Grid.Columns>
+                                                <GridColumn ColumnId="3ba5b96f-fa59-4599-989b-dd0e35a815c2" Type="Text" Width="26" Id="360aa718-9ccd-46d9-b6fd-d6f7dd755daf">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="3ba5b96f-fa59-4599-989b-dd0e35a815c2" Value="#" Opacity="1" Id="b0ba2d2c-2e4e-427b-a923-36584689aa8a" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                                <GridColumn ColumnId="ee997c8f-7889-429a-8f4d-dd2d72ba9fda" Type="Text" Width="91" Id="90e2694b-4e88-414d-9ce3-186e95ced621">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="ee997c8f-7889-429a-8f4d-dd2d72ba9fda" Value="Дата" Opacity="1" Id="4ffa7046-8f6e-4505-8a42-1506dc95578f" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                                <GridColumn ColumnId="1f9e9189-a2e3-43eb-92ea-f991438473ce" Type="Text" Width="59" Id="756036a7-e394-4081-99c2-311e64446440">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="1f9e9189-a2e3-43eb-92ea-f991438473ce" Value="Време" Opacity="1" Id="a507c55c-0bdf-446d-b39b-a910a116a49f" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                                <GridColumn ColumnId="e576918d-bead-428a-9f4a-9d5d21b4c0a8" Type="Text" Width="202" Id="4b2978bc-9a9e-4d18-bedc-7a569b8bcce6">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="e576918d-bead-428a-9f4a-9d5d21b4c0a8" Value="Място" Opacity="1" Id="ddb8b40c-158a-4284-bfe4-293150df6d13" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                                <GridColumn ColumnId="5a516f6b-e595-44ff-a3e1-0e1708fe2da3" Type="Text" Width="88" Id="63ea0b81-6d1c-48aa-a298-617c489e2145">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="5a516f6b-e595-44ff-a3e1-0e1708fe2da3" Value="Събитие" Opacity="1" Id="e3acd7af-97a2-4503-a789-e72a1e002f2f" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                                <GridColumn ColumnId="7e1425ad-6707-48c9-ba07-280969510eb3" Type="Text" Width="51" Id="7869971d-0047-4ea8-bf79-a43a38b81cc5">
+                                                    <GridColumn.CellData>
+                                                        <GridCellData ColumnId="7e1425ad-6707-48c9-ba07-280969510eb3" Value="Цена" Opacity="1" Id="e63f9db2-58df-4b26-aa74-196f615e0479" />
+                                                    </GridColumn.CellData>
+                                                </GridColumn>
+                                            </Grid.Columns>
+                                            <Grid.Rows>
+                                                <GridRow Height="32" Id="d5ebac32-3b8c-4d38-bfdd-8b2e64276ac2">
+                                                    <GridRow.Data>
+                                                        <GridCellData ColumnId="3ba5b96f-fa59-4599-989b-dd0e35a815c2" Value="1" Opacity="1" Id="2d073181-e053-4a24-8894-a315e0397d8a" />
+                                                        <GridCellData ColumnId="e576918d-bead-428a-9f4a-9d5d21b4c0a8" Value="Арена Армеец, София" Opacity="1" Id="f4d70be5-5eb1-49b9-a8bb-984e18f4b6ac" />
+                                                        <GridCellData ColumnId="5a516f6b-e595-44ff-a3e1-0e1708fe2da3" Value="Nightwish" Opacity="1" Id="ef2f0659-d2e9-4dcb-85df-1f914205f8c5" />
+                                                        <GridCellData ColumnId="ee997c8f-7889-429a-8f4d-dd2d72ba9fda" Value="12 Окт 2017" Opacity="1" Id="5ac5781e-4d4f-45f2-a17e-0e71b706d0c9" />
+                                                        <GridCellData ColumnId="7e1425ad-6707-48c9-ba07-280969510eb3" Value="50.00" Opacity="1" Id="d3f8b140-0289-4b39-bf22-c70831e92e9b" />
+                                                        <GridCellData ColumnId="1f9e9189-a2e3-43eb-92ea-f991438473ce" Value="20:00ч." Opacity="1" Id="c2329d90-2633-493c-9894-6b18408205a1" />
+                                                    </GridRow.Data>
+                                                </GridRow>
+                                                <GridRow Height="32" Id="3e215d89-8f08-451d-a099-ba833f59a181">
+                                                    <GridRow.Data>
+                                                        <GridCellData ColumnId="3ba5b96f-fa59-4599-989b-dd0e35a815c2" Value="2" Opacity="1" Id="11ecec25-d571-4aea-af31-a9d4d9b5bf4d" />
+                                                        <GridCellData ColumnId="e576918d-bead-428a-9f4a-9d5d21b4c0a8" Value="Стадион Васил Левски, София" Opacity="1" Id="602d1301-1282-414f-ab8d-57624ee392ac" />
+                                                        <GridCellData ColumnId="5a516f6b-e595-44ff-a3e1-0e1708fe2da3" Value="Metallica" Opacity="1" Id="b71e599d-eb15-414e-9583-b4caf737a5a6" />
+                                                        <GridCellData ColumnId="ee997c8f-7889-429a-8f4d-dd2d72ba9fda" Value="18 Сеп 2017" Opacity="1" Id="89aa7148-5a1d-44b0-8421-e866e4b472b2" />
+                                                        <GridCellData ColumnId="7e1425ad-6707-48c9-ba07-280969510eb3" Value="40.00" Opacity="1" Id="eccd1784-ee65-4305-bd7b-5d9f57568b9e" />
+                                                        <GridCellData ColumnId="1f9e9189-a2e3-43eb-92ea-f991438473ce" Value="19:30ч." Opacity="1" Id="640d557d-a50a-4ef9-8ec8-83a80f2e2e29" />
+                                                    </GridRow.Data>
+                                                </GridRow>
+                                                <GridRow Height="32" Id="23f2c2dd-d985-4bdb-8527-34d3d216f273">
+                                                    <GridRow.Data>
+                                                        <GridCellData ColumnId="3ba5b96f-fa59-4599-989b-dd0e35a815c2" Value="3" Opacity="1" Id="9298bafb-47aa-4d29-b722-a55d3c00a481" />
+                                                        <GridCellData ColumnId="e576918d-bead-428a-9f4a-9d5d21b4c0a8" Value="Концертна зала, Пловдив" Opacity="1" Id="a455fb58-766f-432a-bfe1-8cecf8d01505" />
+                                                        <GridCellData ColumnId="5a516f6b-e595-44ff-a3e1-0e1708fe2da3" Value="Evanescence" Opacity="1" Id="d565e730-60ad-4ecf-9b96-e85db38e1490" />
+                                                        <GridCellData ColumnId="ee997c8f-7889-429a-8f4d-dd2d72ba9fda" Value="19 Мар 2017" Opacity="1" Id="cdda9bb0-b24e-4a20-b67f-8be4535ee89d" />
+                                                        <GridCellData ColumnId="7e1425ad-6707-48c9-ba07-280969510eb3" Value="60.00" Opacity="1" Id="c84a68c0-3189-4c69-9f86-c5c3c81a31ba" />
+                                                        <GridCellData ColumnId="1f9e9189-a2e3-43eb-92ea-f991438473ce" Value="18:00ч." Opacity="1" Id="3e0aa1ff-3299-4c71-9d97-19ef03661e33" />
+                                                    </GridRow.Data>
+                                                </GridRow>
+                                            </Grid.Rows>
+                                        </Grid>
+                                        <Title RichText="Моите минали събития" FontSize="21" FontFamily="Open Sans" Id="c9354bc9-f00d-4e20-969d-75916a3930a1" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

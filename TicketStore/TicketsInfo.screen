@@ -1,0 +1,95 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="30ead25a-1f3b-4b01-9e03-dcdaa33f4711">
+    <Page.Content>
+        <Content Width="799" Height="600" Id="22f71bcc-63b6-4cb6-b048-fdf861da2b45">
+            <Content.Layers>
+                <Layer Id="2d88754f-6f4a-4679-a8ed-7699db538119" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="63726560-0de4-41a4-a8c9-628bd1412243" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="799,600" Id="2e93adf2-432f-455c-ad17-9fdb09aa26a9" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="94223811-7e53-46a7-bdd2-f17afa81811a" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/01/2017 10:31:47" Id="38888332-88b9-4757-b682-0ee9636d47f1">
+            <Scene.KeyFrames>
+                <KeyFrame Id="662f6b72-89fc-446b-9d78-b78c041ead51">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="2d88754f-6f4a-4679-a8ed-7699db538119">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="a221fc88-3024-4c4f-b71a-3c51ac6921e7">
+                                    <Group.Children>
+                                        <Tabs Id="61a3a1a0-80e7-402b-b8be-cf3346c00270" Panel.Bounds="410,142,328{5,2147483647},370{5,2147483647}">
+                                            <Tabs.Items>
+                                                <TabItem Header="Информация        " IsSelected="True" Tooltip="jjj" Id="f1a5e6e0-323a-447f-931b-e2e63f70e0b9">
+                                                    <TabItem.Content>
+                                                        <Container ClipToContainer="True" Id="81e4c509-bd0e-4df1-90d1-2e2cb0f37d5c">
+                                                            <Container.Children>
+                                                                <i:TextArea Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a magna in ex mollis sollicitudin nec nec massa. Etiam posuere augue non diam vehicula maximus. Integer ante felis, consequat ut leo accumsan, finibus laoreet urna. Integer congue mattis purus, et auctor est dapibus vel. Aenean ut mauris turpis. Aenean feugiat eleifend molestie. Morbi ac nisl felis. Suspendisse condimentum, lorem at accumsan pulvinar, ipsum quam laoreet elit, nec fermentum turpis neque sed purus. Curabitur eros velit, egestas non mattis ut, posuere nec est. Etiam pharetra ante nisi, ac tristique elit bibendum id. Fusce in nisi eget augue rhoncus sagittis tempor sed tellus. Fusce finibus ullamcorper dolor, id finibus quam sodales ut. Vestibulum congue mi ac nisl convallis, ultrices congue ex sollicitudin." FontFamily="Open Sans" Id="02b2e36b-621c-48f9-bd0f-e3ea110e9157" Panel.Bounds="7,13,307{22,2147483647},313{31,2147483647}" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </TabItem.Content>
+                                                </TabItem>
+                                                <TabItem Header="Коменрати и запитвания" Id="b2295c43-9ef5-4921-8810-6a445ae84ddc">
+                                                    <TabItem.Content>
+                                                        <Container ClipToContainer="True" Id="b65e0d4a-6ec3-4348-8705-5eba938297c8">
+                                                            <Container.Children>
+                                                                <i:TextField Text="e-mail за контакт" FontFamily="Open Sans" Id="e7c38919-77a9-4f77-9c3e-56cdbe6bcd78" Panel.Bounds="10,177,200{22,2147483647},5*{5,2147483647}" />
+                                                                <i:TextArea Text="..." FontFamily="Open Sans" Id="cfb2eef0-291c-4764-a061-c27c4413c60a" Panel.Bounds="10,11,296{22,2147483647},142{31,2147483647}" />
+                                                                <Button Text="Изпрати" Id="4ae9111a-783d-4896-8862-d9b72aeb298e" Panel.Bounds="106,231,80{5,2147483647},35{5,2147483647}" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </TabItem.Content>
+                                                </TabItem>
+                                            </Tabs.Items>
+                                        </Tabs>
+                                        <Image Id="a65437a6-d9e5-427a-b72f-14834a92e448" Panel.Bounds="71,332,58{5,2147483647},46{5,2147483647}" />
+                                        <Image Id="6564cfb0-7b82-4388-96c7-29b677680e1b" Panel.Bounds="147,332,58{5,2147483647},46{5,2147483647}" />
+                                        <Image Id="81c6b783-d3f9-41af-a4cc-5a2c7798f6ab" Panel.Bounds="224,332,58{5,2147483647},46{5,2147483647}" />
+                                        <Image Id="f4429fc1-6317-4774-9144-492d3922c3da" Panel.Bounds="300,332,58{5,2147483647},46{5,2147483647}" />
+                                        <Button Text="Резервирай билети" Id="8db57d37-179a-4cf4-860a-c5cda48a0e27" Panel.Bounds="490,88,155{5,2147483647},44{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/BuyTickets.screen" Created="11/01/2017 10:56:56" Id="d967d039-48ef-49e5-afba-de04ec4d492a">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                        <Rectangle Background="#FF717171" Id="8f8198f6-834a-441b-8e3c-a1f470d3893e" Panel.Bounds="0,0,800{5,2147483647},49{5,2147483647}" />
+                                        <Button Text="TicketStrore" CornerRadius="10" FontFamily="Arial Black" Id="f63c8b58-f3b6-4d26-be26-4302d48dc1db" Panel.Bounds="3,8,114{5,2147483647},32{5,2147483647}" />
+                                        <Rectangle Background="#FFAAAAAA" Id="9b334da8-e56e-4d27-b30b-99860dae3513" Panel.Bounds="0,551,800{5,2147483647},49{5,2147483647}" />
+                                        <Label RichText="Get Our newsletter " Foreground="#FF4281D0" FontSize="14" FontStyle="Bold" Opacity="0.6" Id="8aa4f24a-8c28-4572-9d05-1a5e9459d8a1" Panel.Bounds="495,567,5*{5,2147483647},5*{5,2147483647}" />
+                                        <TextArea Text="Enter your email" Foreground="#FF4281D0" FontStyle="Bold" Opacity="0.4" Id="19d60c52-9434-43ba-b336-eadc3b193290" Panel.Bounds="641,562,146{5,2147483647},30{5,2147483647}" />
+                                        <Icon CatalogId="fa-facebook-official" Id="e6c34e8c-86f6-47b5-9f55-8455f5fefcce" Panel.Bounds="8,561,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-twitter-square" Id="3be28faf-8d27-4e05-a4b7-ffa26ec779ac" Panel.Bounds="44,562,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-instagram" Id="4ffe002d-cf58-4275-b8a3-26d2ff654cf4" Panel.Bounds="80,562,32{5,2147483647},32{5,2147483647}" />
+                                        <MapMock MockType="Street Map" Id="5e8c15a0-65d9-45d4-917d-bcab8917c9d4" Panel.Bounds="71,407,287{5,2147483647},105{5,2147483647}" />
+                                        <Icon CatalogId="linea-geolocalize-01" Id="ec26b85e-e454-4c3b-9272-c0651d117218" Panel.Bounds="134,410,31{5,2147483647},31{5,2147483647}" />
+                                        <Icon Color="#FFFFFFFF" CatalogId="fa-user" Opacity="1" Id="f0f8376e-2d66-46e0-9e57-a86ae8820426" Panel.Bounds="697,8,32{5,2147483647},32{5,2147483647}" />
+                                        <Button Text="Изход" CornerRadius="10" FontFamily="Arial Black" Id="21d0fffc-7215-4a0d-aacc-30cabac0cf84" Panel.Bounds="734,10,63{5,2147483647},30{5,2147483647}" />
+                                        <Group GroupName="Group" Id="f409db77-0350-4556-b49b-1a522a6ba4f0" Panel.Bounds="71,67,0*,0*">
+                                            <Group.Children>
+                                                <Title RichText="Aerosmit" Id="f1298cc8-3f19-4815-b701-98d0c87a47f6" Panel.Bounds="0,0,271{5,2147483647},42{5,2147483647}" />
+                                                <Image SourcePath="assets/Aero.png" Id="2e628cf0-52f4-45bc-8b20-d208d77c58c9" Panel.Bounds="0,62,287{5,2147483647},183{5,2147483647}" />
+                                            </Group.Children>
+                                        </Group>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

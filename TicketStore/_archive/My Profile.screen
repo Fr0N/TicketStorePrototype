@@ -1,0 +1,78 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="a30325ec-9f6d-4636-b14f-8bd493186920">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="4708e8d4-ab8d-40fa-b8b4-a95c4ce7322d">
+            <Content.Layers>
+                <Layer Id="c1b47e07-490f-4130-a233-363f252341a0" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="9d88a2ab-9418-46cd-84d6-bad230387ee0" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="99adff4c-8636-4b24-88b6-1dda2cf1f77e" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="95ea878e-2160-4f45-86ea-c829d67e89a1" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/30/2017 17:08:34" Id="501f1647-865e-4d37-b555-6bcd10c31f89">
+            <Scene.KeyFrames>
+                <KeyFrame Id="efdc2dac-97df-4827-9fee-ca22670a96e1">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Before="dda2438c-f6ed-425e-b4e5-832c4768b072" Target="c1b47e07-490f-4130-a233-363f252341a0">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="7b7a385e-86a9-407b-8668-272c18aa0488" Panel.Bounds="154,68,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle Id="a38c2681-ba6d-4638-aeda-c98df1fe55a4" Panel.Bounds="0,51,120{5,2147483647},120{5,2147483647}" />
+                                        <Image SourcePath="assets/default-user.png" Id="dda2438c-f6ed-425e-b4e5-832c4768b072" Panel.Bounds="0,51,120{5,2147483647},0*{5,2147483647}" />
+                                        <Button Text="Качи снимка" CornerRadius="5" Id="06688948-0478-4022-946c-b0f075d79ab8" Panel.Bounds="0,188,120{5,2147483647},35{5,2147483647}" />
+                                        <Label RichText="Потребителско име:" Id="0b2191ec-3106-496d-bef9-300e6baa06fd" Panel.Bounds="135,35,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Парола:" Id="23e48cbe-1471-4bf1-a477-47963e51cb9e" Panel.Bounds="213,70,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Потвърди парола:" Id="d99a001b-906b-4050-a958-d01cab51f151" Panel.Bounds="147,110,5*{5,2147483647},5*{5,2147483647}" />
+                                        <TextBox Text="Маргарита Петрова" FontSize="14" Id="9e892b21-9b97-4f1d-8bf8-7d9a9397c365" Panel.Bounds="279,145,200{5,2147483647},5*{5,2147483647}" />
+                                        <PasswordBox Password="fffffffffffff" FontSize="14" FontFamily="Open Sans" Id="e9eb4a3c-d0eb-46ae-89d3-8489de0c839d" Panel.Bounds="279,66,200{5,2147483647},5*{5,2147483647}" />
+                                        <PasswordBox Password="fffffffffffff" FontSize="14" FontFamily="Open Sans" Id="92b94774-1e3e-4eff-815e-aff50c0089ed" Panel.Bounds="279,106,200{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Име и фамилия:" Id="42a8a8e6-b148-4a5d-8a5d-c2542991348a" Panel.Bounds="162,150,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="barbaron@gmail.com" FontSize="16" FontFamily="Open Sans" Id="87c39f47-12d5-44aa-8897-56a86f2874d0" Panel.Bounds="280,33,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Дата на раждане:" Id="af212ed3-67ff-4d44-a7f2-2424fe906e51" Panel.Bounds="154,190,5*{5,2147483647},5*{5,2147483647}" />
+                                        <TextBox Text="21 отомври 2000" FontSize="14" Id="f8a24149-fa43-4516-aaf9-e4c41328f896" Panel.Bounds="280,184,153{5,2147483647},5*{5,2147483647}" />
+                                        <Title RichText="Профил" FontSize="21" FontFamily="Open Sans" Id="2279079a-b7de-4719-8e20-03827637252e" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Button Text="Моите билети" CornerRadius="0" FontSize="16" FontFamily="Open Sans" Id="884b4d9b-8570-4d10-aee3-03aa02ec4ea2" Panel.Bounds="0,270,147{5,2147483647},70{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/My Tickets.screen" Created="10/30/2017 19:28:29" Id="6feddb75-9248-4028-8e7d-c85710626294">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                        <Button Text="Промени" CornerRadius="5" FontSize="14" FontFamily="Open Sans" Id="ac97f077-792f-46bf-91c3-dae95a0cb039" Panel.Bounds="280,411,122{5,2147483647},38{5,2147483647}" />
+                                        <TextArea Text="ул. Искрец 12А" FontSize="14" FontFamily="Open Sans" Id="60f0c08d-a848-4e11-bdb8-bb9d1010c932" Panel.Bounds="280,225,180{5,2147483647},78{5,2147483647}" />
+                                        <Label RichText="Адрес:" Id="ba7ca9c0-4151-449f-a4e5-8c515540eac5" Panel.Bounds="223,225,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Град:" Id="10c6c71b-1df4-437f-a586-9cdea48b05a9" Panel.Bounds="232,322,5*{5,2147483647},5*{5,2147483647}" />
+                                        <TextBox Text="Монтана" FontSize="14" Id="fa149257-7d77-4bb5-954e-db35ac271b3c" Panel.Bounds="279,318,153{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Телефон:" Id="38143fbe-11d3-4c06-bbf3-125edbae34fa" Panel.Bounds="205,363,60{5,2147483647},18*{5,2147483647}" />
+                                        <TextBox Text="0564236805" FontSize="14" Id="df4160e8-deba-44d0-8067-1cbfb2ac68fb" Panel.Bounds="279,359,153{5,2147483647},5*{5,2147483647}" />
+                                        <Button Text="Минали събития" CornerRadius="0" FontSize="16" FontFamily="Open Sans" Id="04976af9-e324-4e2e-b7e4-db5ab05904d0" Panel.Bounds="0,371,147{5,2147483647},70{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/My Past Events.screen" Created="10/30/2017 19:25:53" Id="1efa7726-51c2-43b9-b363-2da9866c3f81">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
